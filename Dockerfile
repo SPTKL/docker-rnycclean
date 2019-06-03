@@ -10,5 +10,3 @@ RUN apt-get update\
 COPY setup.r ./
 
 RUN Rscript setup.r
-
-WORKDIR /home/docker
