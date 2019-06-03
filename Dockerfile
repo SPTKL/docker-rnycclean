@@ -1,4 +1,4 @@
-FROM r-base:3.5.2
+FROM trestletech/plumber
 
 RUN apt-get update\
     && apt install -y\ 
